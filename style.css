@@ -1,13 +1,16 @@
+body{
+  background-color: rgba(60, 62, 62, 0.149);
+}
 main{
   padding:15px;
   margin-top:100px ;
   width: 400px;
-  height:px;
+  height:auto;
   margin: auto;  
-  box-shadow:4px 5px 9px 0px black ;
   border-radius: 5px;
   margin-top:90px; 
-  background-color: rgba(185, 182, 182, 0.436);
+  background-color: rgba(195, 94, 212, 0.028);
+  border: 1px solid #0e0e0e;
 
  
 
@@ -23,14 +26,17 @@ input{
   border-radius:4px ;
   height: 26px;
   width: 308px;
+  border: 1px solid #000000fa;
 }
 
 button{
+  cursor: pointer;
   height: 31px;
   width: 60px;
   border-radius:4px ;
-  background-color: #308AD9;
+  background-color: #0288fdb6;
   color: white;
+  border: 1px solid #000000c8;
 }
 div{
   padding:10px ;
@@ -43,22 +49,23 @@ ul{
   
 }
  ul > li:hover{
+  transition-duration:0.4s;
   cursor: pointer ;
-  background-color: rgba(114, 116, 116, 0.455);
-  
+  background-color: rgba(0, 0, 0, 0.424);
+  color: white;
  }
 
 li{
-  background-color: rgba(14, 14, 15, 0.094);
+  background-color: rgba(180, 176, 176, 0.146);
   padding:8px;
   list-style-type:none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin:auto;
   border-radius: 2px;
-  box-shadow:2px 2px 2px 0px rgba(45, 44, 44, 0.718) ;
+  font-style: italic;
   display: flex;
   justify-content:space-between;
-  
+  border: 1px solid #000000;
 }
 
 
@@ -66,11 +73,13 @@ li > button {
   background-color: aliceblue;
   color: black;
   border-radius: 4px;
+  border: 1px solid #000000c8;
 }
 
 li > button:hover{
   cursor: pointer;
-  background-color: rgba(235, 13, 65, 0.387);
+  background-color: rgba(255, 0, 60, 0.705);
+  color: white;
 }
 
 
