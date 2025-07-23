@@ -13,7 +13,7 @@ function adicionarTarefa() {
     } else {
         let lista = document.createElement('li')
 
-        lista.innerHTML = tarefa + '<button onclick = "deleteTarefa(this)">Delete</button>'
+        lista.innerHTML = tarefa + '<button onclick = "deleteTarefa(this)">Del</button>     <input type="checkbox" name="" id="">'
         document.getElementById('lista-tarefas').appendChild(lista)
         document.getElementById('novaTarefa').value = ''
         console.log(lista)
