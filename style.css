@@ -4,7 +4,7 @@ body{
 main{
   padding:15px;
   margin-top:100px ;
-  width: 400px;
+  width: 450px;
   height:auto;
   margin: auto;  
   border-radius: 5px;
@@ -25,7 +25,7 @@ input{
   margin-bottom:15px;
   border-radius:4px ;
   height: 26px;
-  width: 308px;
+  width: 320px;
   border: 1px solid #000000fa;
 }
 
@@ -51,12 +51,12 @@ ul{
  ul > li:hover{
   transition-duration:0.4s;
   cursor: pointer ;
-  background-color: rgba(0, 0, 0, 0.424);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.076);
+  color: rgb(0, 0, 0);
  }
 
 li{
-  background-color: rgba(180, 176, 176, 0.146);
+  background-color: rgba(180, 176, 176, 0.047);
   padding:8px;
   list-style-type:none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
