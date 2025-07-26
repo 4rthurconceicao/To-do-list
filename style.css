@@ -1,98 +1,102 @@
-@media(max-width:490px){
-  body{
-    font-size:16px;
-    padding: 10px;
-
-
-    main{
-      width: 100%;
-      
-    }
-  }
-}
-
-body{
+body {
   background-color: rgba(60, 62, 62, 0.149);
 }
-main{
-  padding:15px;
-  margin-top:100px ;
-  width:420px;
-  height:auto;
-  margin: auto;  
+p{
+ text-align: center;
+}
+main {
+  padding: 15px;
+  width: 420px;
+  height: auto;
+  margin: auto;
   border-radius: 5px;
-  margin-top:90px; 
-  background-color: rgba(195, 94, 212, 0.028);
-  border: 1px solid #0e0e0e;
+  margin-top: 90px;
+  background-color: rgba(34, 35, 35, 0.028);
+  border: 1px solid #000000;
 
- 
+
 
 }
-h1{
+
+h1 {
   margin: 0px;
   text-align: center;
 
 }
 
-input{
-  margin-bottom:15px;
-  border-radius:4px ;
+input {
+  margin-bottom: 15px;
+  border-radius: 4px;
   height: 26px;
   width: 320px;
   border: 1px solid #000000fa;
 }
 
-button{
+button {
   cursor: pointer;
   height: 31px;
   width: 60px;
-  border-radius:4px ;
+  border-radius: 4px;
   background-color: #0288fdb6;
   color: white;
   border: 1px solid #000000c8;
 }
-div{
-  padding:10px ;
+
+div {
+  padding: 10px;
 }
-ul{
+
+ul {
   display: block;
   display: inline;
-  
-  margin-top:10px ;
-  
-}
- ul > li:hover{
-  transition-duration:0.4s;
-  cursor: pointer ;
-  background-color: rgba(0, 0, 0, 0.076);
-  color: rgb(0, 0, 0);
- }
 
-li{
+  margin-top: 10px;
+
+}
+
+ul>li:hover {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgba(96, 94, 94, 0.168);
+  color: rgb(0, 0, 0);
+}
+
+#check {
+  margin-bottom: 0px;
+  margin-left: -148px;
+  margin-right: -180px;
+  cursor: pointer;
+}
+
+li {
   background-color: rgba(180, 176, 176, 0.047);
-  padding:8px;
-  list-style-type:none;
+  padding: 8px;
+  list-style-type: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin:auto;
+  margin: auto;
   border-radius: 2px;
   font-style: italic;
+  text-align: left;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -21px;
+  margin-right: -22px;
   border: 1px solid #000000;
 }
 
 
-li > button {
+li>button {
+  height: 28px;
+  width: 27px;
   background-color: aliceblue;
   color: black;
   border-radius: 4px;
   border: 1px solid #000000c8;
 }
 
-li > button:hover{
+li>button:hover {
   cursor: pointer;
   background-color: rgba(255, 0, 60, 0.705);
   color: white;
 }
-
-
